@@ -1,0 +1,151 @@
+/**
+ * 
+ * BEGIN BASE STYLES
+ *
+ */
+
+@charset "UTF-8";
+
+/*------------------------------------*\
+    $SHARED
+\*------------------------------------*/
+.tagline,
+.button,
+.footer{
+    text-align:center;
+}
+
+.action-box,
+.footer > div{
+    width:33.33%;
+}
+
+
+
+
+/*------------------------------------*\
+    $ELEMENTS
+\*------------------------------------*/
+html{
+    font-family:$primary;
+    color:$graphite;
+    font-size:22px;
+    font-weight:normal;
+}
+
+  h1{
+      font-size:40px;
+      font-weight:normal;
+  }
+  
+  p{
+      margin-bottom:$base-spacing-unit;
+  }
+  
+  a{
+      text-decoration:none;
+  }
+  
+  address{
+      font-style:normal;
+  }
+
+
+
+
+/*------------------------------------*\
+    $LAYOUT
+\*------------------------------------*/
+.theatre{
+    position:absolute;
+    top:0;
+    left:0;
+    height:570px;
+    width:100%;
+    background:$way-dark;
+    z-index:-1;
+}
+
+.wrapper{
+    width:$wrap;
+    margin:0 auto;
+}
+
+  .action-box{
+      float:left;
+      padding:0 $base-spacing-unit $base-spacing-unit;
+      border-right:1px solid $metal;
+  }
+    .action-box:first-of-type{
+        border-left:1px solid $metal;
+    }
+      .button{
+          display:block;
+          margin-top:$base-spacing-unit;
+          padding:$base-spacing-unit / 2;
+          background:$graphite;
+          color:#FFF;
+          font-weight:400;
+          
+          &:hover{
+              opacity:.75;
+          }
+      }
+        .button--brite{
+            background:$sunset;
+        }
+  
+  .footer{
+      display:inline-block;
+      clear:both;
+      margin-top:$base-spacing-unit * 2;
+      border-top:1px solid $metal;
+      border-bottom:1px solid $metal;
+    &>div{
+        display:table-cell;
+        vertical-align:middle;
+        padding:$base-spacing-unit;
+        
+        &>p{
+            margin:0;
+        }
+    }
+  }
+
+
+
+
+/*------------------------------------*\
+    $HELPER
+\*------------------------------------*/
+.font--sans{
+    font-family:$secondary;
+}
+.font--brite{
+    color:$sunset;
+}
+
+.tagline{
+    margin:$base-spacing-unit * 2 0;
+}
+
+.cf{
+    &:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+
+.accessibility{
+    border:0!important;
+    clip:rect(0 0 0 0)!important;
+    height:1px!important;
+    margin:-1px!important;
+    overflow:hidden!important;
+    padding:0!important;
+    position:absolute!important;
+    width:1px!important;
+}
+
+

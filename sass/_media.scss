@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $MEDIA-OBJECT
+\*------------------------------------*/
+.media{
+    display:block;
+    @extend .cf;
+}
+    .media__img{
+        float:left;
+        margin-right:$base-spacing-unit / 2;
+    }
+    /**
+     * Reversed image location (right instead of left).
+     */
+    .media__img--rev{
+        float:right;
+        margin-left:$base-spacing-unit / 2;
+    }
+
+        .media__img img,
+        .media__img--rev img{
+            display:block;
+        }
+
+    .media__body{
+        overflow:hidden;
+    }
+        .media__body,
+        .media__body > :last-child{
+            margin-bottom:0;
+        }
