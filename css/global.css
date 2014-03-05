@@ -156,13 +156,16 @@ address {
   background: #c6c5c3;
   margin: 0 12px;
 }
-.social > .social--facebook:hover {
+
+.social--facebook:hover {
   background-color: #3b5998;
 }
-.social > .social--twitter:hover {
+
+.social--twitter:hover {
   background-color: #56a3d9;
 }
-.social > .social--vimeo:hover {
+
+.social--vimeo:hover {
   background-color: #5da9d5;
 }
 
