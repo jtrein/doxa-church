@@ -129,16 +129,16 @@ html{
           background:$metal;
           margin:0 $base-spacing-unit / 2;
       }
-      &>.social--facebook:hover{
-          background-color:$fbook;
-      }
-      &>.social--twitter:hover{
-          background-color:$twitter;
-      }
-      &>.social--vimeo:hover{
-          background-color:$vimeo;
-      }
   }
+    .social--facebook:hover{
+        background-color:$fbook;
+    }
+    .social--twitter:hover{
+        background-color:$twitter;
+    }
+    .social--vimeo:hover{
+        background-color:$vimeo;
+    }
     
     
 
