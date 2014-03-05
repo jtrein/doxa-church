@@ -101,6 +101,8 @@ html{
       margin-top:$base-spacing-unit * 2;
       border-top:1px solid $metal;
       border-bottom:1px solid $metal;
+      font-weight: 300;
+      font-size:18px;
     
     &>div{
         display:table-cell;

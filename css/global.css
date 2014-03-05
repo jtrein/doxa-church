@@ -131,6 +131,8 @@ address {
   margin-top: 48px;
   border-top: 1px solid #c6c5c3;
   border-bottom: 1px solid #c6c5c3;
+  font-weight: 300;
+  font-size: 18px;
 }
 .footer > div {
   display: table-cell;
