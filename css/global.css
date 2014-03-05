@@ -141,6 +141,31 @@ address {
   margin: 0;
 }
 
+.social {
+  display: block;
+  clear: both;
+  padding: none;
+  vertical-align: initial;
+  margin-top: 12px;
+  text-align: center;
+}
+.social > a {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  background: #c6c5c3;
+  margin: 0 12px;
+}
+.social > .social--facebook:hover {
+  background-color: #3b5998;
+}
+.social > .social--twitter:hover {
+  background-color: #56a3d9;
+}
+.social > .social--vimeo:hover {
+  background-color: #5da9d5;
+}
+
 /*------------------------------------*\
     $HELPER
 \*------------------------------------*/

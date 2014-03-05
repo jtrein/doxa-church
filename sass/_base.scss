@@ -101,6 +101,7 @@ html{
       margin-top:$base-spacing-unit * 2;
       border-top:1px solid $metal;
       border-bottom:1px solid $metal;
+    
     &>div{
         display:table-cell;
         vertical-align:middle;
@@ -110,8 +111,36 @@ html{
             margin:0;
         }
     }
+    
   }
-
+  
+  .social{
+      display:block;
+      clear:both;
+      padding:none;
+      vertical-align:initial;
+      margin-top:$base-spacing-unit / 2;
+      text-align:center;
+      
+      &>a{
+          display:inline-block;
+          height:$base-spacing-unit * 2;
+          width:$base-spacing-unit * 2;
+          background:$metal;
+          margin:0 $base-spacing-unit / 2;
+      }
+      &>.social--facebook:hover{
+          background-color:$fbook;
+      }
+      &>.social--twitter:hover{
+          background-color:$twitter;
+      }
+      &>.social--vimeo:hover{
+          background-color:$vimeo;
+      }
+  }
+    
+    
 
 
 
