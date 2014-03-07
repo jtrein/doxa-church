@@ -54,7 +54,7 @@ html{
 
 
 /*------------------------------------*\
-    $LAYOUT
+    $FITTINGS
 \*------------------------------------*/
 .theatre{
     position:absolute;
@@ -122,6 +122,7 @@ html{
       padding:none;
       vertical-align:initial;
       margin-top:$base-spacing-unit / 2;
+      margin-bottom:$base-spacing-unit;
       text-align:center;
       
       &>a{
@@ -138,9 +139,14 @@ html{
     .social--twitter:hover{
         background-color:$twitter;
     }
-    .social--vimeo:hover{
-        background-color:$vimeo;
-    }
+  
+  .copyright{
+      text-align:right;
+      display:block;
+      font-size:16px;
+      color:$metal;
+      font-family:$secondary;  
+  }
     
     
 

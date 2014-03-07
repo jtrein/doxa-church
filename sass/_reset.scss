@@ -4,9 +4,7 @@
  *
  */
 
-/**
- * Tame the box model
- */
+/* Tame the box model */
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -15,9 +13,7 @@
     box-sizing: border-box;
 }
 
-/**
- * Basics for elements
- */
+/* Basics for elements */
 h1,h2,h3,h4,h5,h6,
 p,blockquote,pre,
 dl,dd,ol,ul,
@@ -29,9 +25,7 @@ hr{
 }
 
 
-/**
- * So that `alt` text is visually offset if images don’t load.
- */
+/* So that `alt` text is visually offset if images don’t load. */
 img{
     font-style:italic;
 }
